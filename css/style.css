@@ -1,6 +1,25 @@
 body {
   font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
 }
 
 .visually-hidden {
+	position: absolute;
+	overflow: hidden;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	width: 1px;
+	margin: -1px;
+	padding: 0;
+	border: 0;
+}
+
+.feature-item h3,
+.news h2,
+.gallery h2,
+.contacts h2,
+.appointment h2,
+.modal h2 {
+  font-size: 30px;
+  font-weight: 400;
 }
